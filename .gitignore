@@ -1,0 +1,7 @@
+# Build Pipeline
+node_modules
+.parcel-cache
+dist
+
+# Log Files
+*.log

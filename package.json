@@ -1,0 +1,21 @@
+{
+  "name": "solar-constelation",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx parcel ./src/index.html",
+    "tsc": "tsc --noEmit --watch",
+    "test": "npx parcel ./test-src/index.html --out-dir ./test-dist/",
+    "build": "npx parcel build ./src/index.html --public-url .",
+    "clean": "rmdir /q 'dist'",
+    "release": "npm run clean; npm run build"
+  },
+  "dependencies": {
+    "@game.object/ts-game-toolbox": "^4.1.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0",
+    "@parcel/transformer-sass": "2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
