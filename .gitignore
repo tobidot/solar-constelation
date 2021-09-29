@@ -5,3 +5,6 @@ dist
 
 # Log Files
 *.log
+
+# Photoline 
+Browse.plb
