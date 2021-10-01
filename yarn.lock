@@ -221,10 +221,24 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@game.object/ts-class-entities@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@game.object/ts-class-entities/-/ts-class-entities-0.0.2.tgz#88e4baf5ec88abfc377a05ab852ba7aaaf7c1ea6"
+  integrity sha512-Oi2wqGdNHdiXacoH2Kr+DnSpL3iK/unaC7sbIFF54bD4FFGVGBXa1mekyOta00NyH4qBCZZ+CSDjJRRCkpvRPg==
+  dependencies:
+    "@game.object/ts-game-toolbox" "^4.1.5"
+
 "@game.object/ts-game-toolbox@^4.1.4":
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@game.object/ts-game-toolbox/-/ts-game-toolbox-4.1.4.tgz#dcb61bdde4ceedc7322f4016939ab4a60e1804b8"
   integrity sha512-aKcOrC8m0xj2TT4WRP0VVuGRzMwZvE4WIv2WEVftgVlHcMJ+tK2ZtZIZFG5b6KT+LN7Tm8Rd2k6F28yvbcdzLQ==
+
+"@game.object/ts-game-toolbox@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@game.object/ts-game-toolbox/-/ts-game-toolbox-4.1.5.tgz#808bbaad29a2b499e29232ae4faae235be584b9f"
+  integrity sha512-CyK/aiON57uRAQaV7irJgAQ9F6XKH/hvNZ8U86Ji6MhQMyuJZqVQGPWuEPqlOT56RoHK6SCkwAf305dzARzVXA==
+  dependencies:
+    "@types/assert" "^1.5.6"
 
 "@iarna/toml@^2.2.0":
   version "2.2.5"
@@ -862,6 +876,11 @@
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.1.1.tgz#3348564048e7a2d7398c935d466c0414ebb6a669"
   integrity sha512-Z6DoceYb/1xSg5+e+ZlPZ9v0N16ZvZ+wYMraFue4HYrE4ttONKtsvruIRf6t9TBR0YvSOfi1hUU0fJfBLCDYow==
+
+"@types/assert@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@types/assert/-/assert-1.5.6.tgz#a8b5a94ce5fb8f4ba65fdc37fc9507609114189e"
+  integrity sha512-Y7gDJiIqb9qKUHfBQYOWGngUpLORtirAVPuj/CWJrU2C6ZM4/y3XLwuwfGMF8s7QzW746LQZx23m0+1FSgjfug==
 
 "@types/http-proxy@^1.17.5":
   version "1.17.7"

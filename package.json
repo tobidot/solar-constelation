@@ -11,6 +11,7 @@
     "release": "npm run clean; npm run build"
   },
   "dependencies": {
+    "@game.object/ts-class-entities": "0.0.2",
     "@game.object/ts-game-toolbox": "^4.1.4"
   },
   "devDependencies": {
